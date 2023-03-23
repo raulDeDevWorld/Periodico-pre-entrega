@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { app } from './config'
 import { onAuthStateChanged, getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
-import { getDatabase, ref, onValue, set, update, child, get, query, remove,startAfter, limitToFirst, limitToLast, orderByValue, startAt, orderByChild, endAt, equalTo, endBefore } from "firebase/database";
+import { getDatabase, ref, onValue, set, update, child, get, query, remove,startAfter, limitToFirst, limitToLast, orderByValue, startAt, orderByChild, endAt, endBefore } from "firebase/database";
 import { getList, getIndexStorage } from './storage'
 import { getDate, getDayMonthYear, getMonthAndYear } from '../utils/Utils'
 
