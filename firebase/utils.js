@@ -204,7 +204,7 @@ async function getIndexData(setUserData, date, minDate) {
 
 
 }
-
+        
 
 
 function getSpecificData(rute, specificData, setUserSpecificData) {
